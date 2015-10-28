@@ -1,0 +1,57 @@
+[{
+	
+		"id":1,
+		"text":"Master",
+		"state":"closed",
+		"children":[{
+			"id":11,
+			"text":"<a onclick='load(\"module/karyawan/index.php\")'>Karyawan</a>"
+		},{
+			"id":12,
+			"text":"<a onclick='load(\"module/pelanggan/index.php\")'>Pelanggan</a>"
+		},{
+			"id":13,
+			"text":"<a onclick='load(\"module/produk/index.php\")'>Produk</a>"
+		},{
+			"id":14,
+			"text":"<a onclick='load(\"module/satuan/index.php\")'>Satuan</a>"
+		},{
+			"id":15,
+			"text":"<a onclick='load(\"module/type/index.php\")'>Type</a>"
+		}]
+	},
+    
+    
+    {
+		"id":2,
+		"text":"<a onclick='load(\"module/transaksi/index.php\")'>Transaksi</a>"
+	},
+    {
+	
+		"id":3,
+		"text":"Laporan",
+		"state":"closed",
+		"children":[{
+			"id":31,
+			"text":"<a onclick='load(\"laporan/karyawan/index.php\")'>Karyawan</a>"
+		},{
+			"id":32,
+			"text":"<a onclick='load(\"laporan/pelanggan/index.php\")'>Pelanggan</a>"
+		},{
+			"id":33,
+			"text":"<a onclick='load(\"laporan/produk/index.php\")'>Produk</a>"
+		},{
+			"id":34,
+			"text":"<a onclick='load(\"laporan/satuan/index.php\")'>Satuan</a>"
+		},{
+			"id":35,
+			"text":"<a onclick='load(\"laporan/type/index.php\")'>Type</a>"
+		}]
+	},
+    
+    
+    {
+		"id":5,
+		"text":"<a onclick='window.location.href=\"logout.php\"'>Exit</a>"
+
+}]

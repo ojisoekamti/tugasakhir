@@ -1,0 +1,1 @@
+<embed src="laporan/laporan/lap_bio.php?niat=<?php echo $_GET['niat']; ?> " width="1000" height="1200">

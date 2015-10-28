@@ -1,0 +1,1 @@
+<embed src="laporan/transaksi/lap.php?kd_kab_kota=<?php echo $_REQUEST['kd_kab_kota']; ?> " width="1049" height="467">
